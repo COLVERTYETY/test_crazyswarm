@@ -9,6 +9,6 @@ for i in range(10):
 print(text)
 
 #save the text to the file
-with open("../launch/allCrazyflies.yaml","a") as f:
+with open("../launch/allCrazyflies.yaml","w") as f:
     f.writelines(text)
 
