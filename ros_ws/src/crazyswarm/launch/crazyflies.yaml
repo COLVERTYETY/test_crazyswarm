@@ -1,5 +1,91 @@
 crazyflies:
-- channel: 100
-  id: 1
-  initialPosition: [1.5, 1.5, 0.0]
-  type: medium
+	- id: 0 
+	channel: 100 
+	initialPosition: [2.50695538 9.23430796 0.        ] 
+	type: medium 
+	- id: 1 
+	channel: 100 
+	initialPosition: [3.56365185 6.87265402 0.        ] 
+	type: medium 
+	- id: 2 
+	channel: 100 
+	initialPosition: [7.31240347 7.32276416 0.        ] 
+	type: medium 
+	- id: 3 
+	channel: 100 
+	initialPosition: [7.0879165 9.1137739 0.       ] 
+	type: medium 
+	- id: 4 
+	channel: 100 
+	initialPosition: [4.80727867 6.42790072 0.        ] 
+	type: medium 
+	- id: 5 
+	channel: 100 
+	initialPosition: [5.87389164 7.34662617 0.        ] 
+	type: medium 
+	- id: 6 
+	channel: 100 
+	initialPosition: [7.19661229 9.32164641 0.        ] 
+	type: medium 
+	- id: 7 
+	channel: 100 
+	initialPosition: [1.32673517 0.01195617 0.        ] 
+	type: medium 
+	- id: 8 
+	channel: 100 
+	initialPosition: [1.35412288 6.15658543 0.        ] 
+	type: medium 
+	- id: 9 
+	channel: 100 
+	initialPosition: [5.46276047 8.19491943 0.        ] 
+	type: medium crazyflies:
+
+	- id: 0 
+	channel: 100 
+	initialPosition: [3.3253623  5.22364048 0.        ] 
+	type: medium 
+
+	- id: 1 
+	channel: 100 
+	initialPosition: [6.01375171 2.86757443 0.        ] 
+	type: medium 
+
+	- id: 2 
+	channel: 100 
+	initialPosition: [1.47859096 0.22362796 0.        ] 
+	type: medium 
+
+	- id: 3 
+	channel: 100 
+	initialPosition: [4.43840695 9.61490612 0.        ] 
+	type: medium 
+
+	- id: 4 
+	channel: 100 
+	initialPosition: [1.85833942 4.11248189 0.        ] 
+	type: medium 
+
+	- id: 5 
+	channel: 100 
+	initialPosition: [4.83608803 3.83465466 0.        ] 
+	type: medium 
+
+	- id: 6 
+	channel: 100 
+	initialPosition: [3.23986681 5.66693086 0.        ] 
+	type: medium 
+
+	- id: 7 
+	channel: 100 
+	initialPosition: [0.01620581 8.08941431 0.        ] 
+	type: medium 
+
+	- id: 8 
+	channel: 100 
+	initialPosition: [1.13585889 4.93916428 0.        ] 
+	type: medium 
+
+	- id: 9 
+	channel: 100 
+	initialPosition: [9.79162973 5.44946125 0.        ] 
+	type: medium 
