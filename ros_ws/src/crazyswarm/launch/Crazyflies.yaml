@@ -2,50 +2,50 @@ crazyflies:
 
 - id: 0 
 channel: 100 
-initialPosition: [1.88 8.86 0.  ] 
+initialPosition: [4.56 1.06 0.  ] 
 type: medium 
 
 - id: 1 
 channel: 100 
-initialPosition: [7.66 1.8  0.  ] 
+initialPosition: [3.74 3.43 0.  ] 
 type: medium 
 
 - id: 2 
 channel: 100 
-initialPosition: [4.95 8.48 0.  ] 
+initialPosition: [4.87 3.44 0.  ] 
 type: medium 
 
 - id: 3 
 channel: 100 
-initialPosition: [0.82 0.32 0.  ] 
+initialPosition: [4.73 9.35 0.  ] 
 type: medium 
 
 - id: 4 
 channel: 100 
-initialPosition: [7.4  9.81 0.  ] 
+initialPosition: [1.42 3.99 0.  ] 
 type: medium 
 
 - id: 5 
 channel: 100 
-initialPosition: [9.44 2.79 0.  ] 
+initialPosition: [7.17 1.8  0.  ] 
 type: medium 
 
 - id: 6 
 channel: 100 
-initialPosition: [5.8  5.81 0.  ] 
+initialPosition: [9.54 4.61 0.  ] 
 type: medium 
 
 - id: 7 
 channel: 100 
-initialPosition: [0.83 1.55 0.  ] 
+initialPosition: [6.61 4.78 0.  ] 
 type: medium 
 
 - id: 8 
 channel: 100 
-initialPosition: [0.78 3.55 0.  ] 
+initialPosition: [1.31 2.16 0.  ] 
 type: medium 
 
 - id: 9 
 channel: 100 
-initialPosition: [8.04 9.69 0.  ] 
+initialPosition: [0.62 9.98 0.  ] 
 type: medium 

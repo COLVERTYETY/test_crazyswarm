@@ -12,7 +12,7 @@ def build_argparser(parent_parsers=[]):
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         parents=parent_parsers
     )
-    parser.add_argument("--sim", help="Run using simulation.", action="store_true")
+    parser.add_argument("--sim", help="Run using simulatcrazyfliesion.", action="store_true")
 
     group = parser.add_argument_group("Simulation-only", "")
     group.add_argument("--vis", help="Visualization backend.", choices=['mpl', 'vispy', 'null'], default="mpl")

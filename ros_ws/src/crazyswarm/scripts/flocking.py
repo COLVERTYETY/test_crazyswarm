@@ -4,6 +4,7 @@ from math import dist
 import numpy as np
 from pycrazyswarm import *
 
+np.seterr(divide='ignore', invalid='ignore')
 Z = 1.0
 sleepRate = 30
 
@@ -12,7 +13,7 @@ leaders = []
 # boid simulation repelling from other boids
 def repelling(boids):
     for b in boids:
-        force = np.array([0, 0, 0])
+        force = np.array([0.0, 0.0, 0.0])
         for other in boids:
             if other is not b:
                 dist = np.linalg.norm(b.position() - other.position())
@@ -29,11 +30,12 @@ def repelling(boids):
 def following(boids):
     global leaders
     for b in boids:
-        force = np.array([0, 0, 0])
+        force = np.array([0.0, 0.0, 0.0])
         for leader in leaders:
-            dist = np.linalg.norm(b.position() - leader.position())
-            if dist < 1:
-                force += (leader.position() - b.position()) / (dist)
+            if b is not leader:
+                dist = np.linalg.norm(b.position() - leader.position())
+                if dist < 10:
+                    force += (leader.velocity() - b.velocity()) / (dist)
         # nromalize the velocity
         vel = b.velocity() + force
         f = np.linalg.norm(vel)
@@ -60,11 +62,11 @@ def cohesion(boids):
 def leaderRepulsion():
     global leaders
     for leader in leaders:
-        force = np.array([0, 0, 0])
+        force = np.array([0.0, 0.0, 0.0])
         for other in leaders:
             if other is not leader:
                 dist = np.linalg.norm(leader.position() - other.position())
-                if dist < 1:
+                if dist < 20:
                     force += (leader.position() - other.position()) / (dist*dist*dist)
         # normalize the velocity
         vel = leader.velocity() + force
@@ -75,11 +77,13 @@ def leaderRepulsion():
 
 
 
+
 if __name__ == "__main__":
     swarm = Crazyswarm()
     timeHelper = swarm.timeHelper
     allcfs = swarm.allcfs
 
+    print(f"found a total of {len(allcfs.crazyflies)} boids")
     allcfs.takeoff(targetHeight=Z, duration=1.0+Z)
     timeHelper.sleep(2 + Z)
 
@@ -89,8 +93,9 @@ if __name__ == "__main__":
 
     # run sim for 1min
     while timeHelper.time() < 60:
-        repelling(allcfs.crazyflies)
-        following(allcfs.crazyflies)
+        # repelling(allcfs.crazyflies)
+        # following(allcfs.crazyflies)
         leaderRepulsion()
-        cohesion(allcfs.crazyflies)
+        # cohesion(allcfs.crazyflies)
         timeHelper.sleepForRate(sleepRate)
+        print(f"\rremaining time: {timeHelper.time() - 60}")
