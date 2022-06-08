@@ -4,7 +4,7 @@ text = "crazyflies:"
 for i in range(10):
     coord = np.random.rand(3)*10
     coord[2]=0.0
-    text+= f"\n\n\t- id: {i} \n\tchannel: 100 \n\tinitialPosition: {coord.round(2)} \n\ttype: medium "
+    text+= f"\n\n- id: {i} \nchannel: 100 \ninitialPosition: {coord.round(2)} \ntype: medium "
 
 print(text)
 
