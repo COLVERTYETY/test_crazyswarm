@@ -1,0 +1,41 @@
+crazyflies:
+	- id: 0 
+	channel: 100 
+	initialPosition: [9.68394319 3.00971411 8.90813603] 
+	type: medium 
+	- id: 1 
+	channel: 100 
+	initialPosition: [2.19425991 0.47014469 0.93874706] 
+	type: medium 
+	- id: 2 
+	channel: 100 
+	initialPosition: [8.19563129 7.07248788 8.13899267] 
+	type: medium 
+	- id: 3 
+	channel: 100 
+	initialPosition: [5.81585341 5.25926502 0.16651549] 
+	type: medium 
+	- id: 4 
+	channel: 100 
+	initialPosition: [2.59147413 1.30517537 9.49279381] 
+	type: medium 
+	- id: 5 
+	channel: 100 
+	initialPosition: [5.91065183 2.70085105 6.41361672] 
+	type: medium 
+	- id: 6 
+	channel: 100 
+	initialPosition: [5.39327576 8.40066551 3.73852543] 
+	type: medium 
+	- id: 7 
+	channel: 100 
+	initialPosition: [2.34380939 9.51344671 5.2358568 ] 
+	type: medium 
+	- id: 8 
+	channel: 100 
+	initialPosition: [9.63099313 6.41185971 0.84399447] 
+	type: medium 
+	- id: 9 
+	channel: 100 
+	initialPosition: [2.83673453 7.24754703 1.63706942] 
+	type: medium 
