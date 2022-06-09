@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  8 11:16:10 2022
+# Make data base, printed on Wed Jun  8 18:26:42 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ AMENT_PREFIX_PATH = /opt/ros/rolling
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4f218685-5576-475d-9baf-d9b9b1193b33.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b8bafb56-e693-4429-87e3-00acad4dda34.sock
 # environment
 LC_NAME = fr_FR.UTF-8
 # environment
@@ -46,6 +46,8 @@ QT_ACCESSIBILITY = 1
 @D = $(patsubst %/,%,$(dir $@))
 # environment
 SNAP_INSTANCE_NAME = code
+# environment
+CSW_PYTHON = python3
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
@@ -69,13 +71,11 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-CONDA_PROMPT_MODIFIER = (base) 
-# environment
 VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.IV4FN1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.T5QUN1
 # default
 .LOADED := 
 # default
@@ -109,23 +109,19 @@ XDG_SESSION_DESKTOP = ubuntu
 # makefile
 MAKEFILE_LIST := 
 # environment
-CONDA_SHLVL = 1
-# environment
 SNAP_REEXEC = 
 # automatic
 @F = $(notdir $@)
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16956
+VSCODE_PID = 38686
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-CONDA_PYTHON_EXE = /home/nicolas/anaconda3/bin/python
-# environment
-SESSION_MANAGER = local/nicolas-XPS-13-9305:@/tmp/.ICE-unix/12821,unix/nicolas-XPS-13-9305:/tmp/.ICE-unix/12821
+SESSION_MANAGER = local/nicolas-XPS-13-9305:@/tmp/.ICE-unix/26283,unix/nicolas-XPS-13-9305:/tmp/.ICE-unix/26283
 # automatic
 *F = $(notdir $*)
 # environment
@@ -142,8 +138,6 @@ MAKE_HOST := x86_64-pc-linux-gnu
 ROS_DISTRO = rolling
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# environment
-CONDA_PREFIX = /home/nicolas/anaconda3
 # makefile
 SHELL = /bin/sh
 # default
@@ -165,7 +159,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = rtMgwM-inCpfBhvW5rmk4MkJKw4RD0NLv0lIyVOg3URfr1dSjrfl
 # environment
-PATH = /home/nicolas/anaconda3/bin:/home/nicolas/anaconda3/condabin:/opt/ros/rolling/bin:/home/nicolas/.local/bin:/home/nicolas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /opt/ros/rolling/bin:/home/nicolas/.local/bin:/home/nicolas/.local/bin:/home/nicolas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -179,7 +173,7 @@ LC_TIME = fr_FR.UTF-8
 # environment
 SNAP = /snap/code/97
 # environment
-INVOCATION_ID = 769d4e58c24d494bb35fa525f0823b24
+INVOCATION_ID = 0b7f7628eee54f7591b4c9c8bd11218a
 # environment
 SNAP_REVISION = 97
 # environment
@@ -211,17 +205,15 @@ ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-CONDA_DEFAULT_ENV = base
-# environment
 LOGNAME = nicolas
 # environment
-PLATFORMIO_PATH = /home/nicolas/.platformio/python3/bin:/home/nicolas/anaconda3/bin:/home/nicolas/anaconda3/condabin:/opt/ros/rolling/bin:/home/nicolas/.local/bin:/home/nicolas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PLATFORMIO_PATH = /home/nicolas/.platformio/python3/bin:/opt/ros/rolling/bin:/home/nicolas/.local/bin:/home/nicolas/.local/bin:/home/nicolas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # environment
 SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 13011
+SYSTEMD_EXEC_PID = 26479
 # environment
 DISPLAY = :0
 # environment
@@ -241,7 +233,7 @@ MANAGERPID = 2368
 # environment
 LC_MEASUREMENT = fr_FR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 16788
+GIO_LAUNCHED_DESKTOP_FILE_PID = 28668
 # environment
 PYTHONPATH = /opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages
 # environment
@@ -255,15 +247,13 @@ COLORTERM = truecolor
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/nicolas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-_CE_M = 
-# environment
-JOURNAL_STREAM = 8:120726
+JOURNAL_STREAM = 8:224869
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-TILIX_ID = d295ba2c-337f-4440-b097-258d59b4cb4d
+TILIX_ID = 0963956f-263f-485b-bab0-6bea2509ff31
 # environment
 PLATFORMIO_IDE = 2.4.3
 # environment
@@ -286,6 +276,7 @@ IM_CONFIG_PHASE = 1
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
+ 
 # environment
 SNAP_VERSION = c3511e6c
 # default
@@ -295,7 +286,6 @@ VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
- 
 VTE_VERSION = 6800
 # environment
 SNAP_COMMON = /var/snap/code/common
@@ -306,17 +296,13 @@ SNAP_USER_DATA = /home/nicolas/snap/code/97
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
-CONDA_EXE = /home/nicolas/anaconda3/bin/conda
-# environment
-_CE_CONDA = 
-# environment
 GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = fr_FR.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=151/1024=15%, Rehash=0, Collisions=10/178=6%
+# Load=144/1024=14%, Rehash=0, Collisions=9/171=5%
 
 # Pattern-specific Variable Values
 
@@ -324,9 +310,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66306, inode 8395609): 39 files, no impossibilities.
+# . (device 66306, inode 8395609): 43 files, no impossibilities.
 
-# 39 files, no impossibilities in 1 directories.
+# 43 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -376,12 +362,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 47 / storage = 703 B / avg = 14 B
-# current buf: size = 8162 B / used = 703 B / count = 47 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 51 / storage = 761 B / avg = 14 B
+# current buf: size = 8162 B / used = 761 B / count = 51 / avg = 14 B
 
-# strcache performance: lookups = 50 / hit rate = 6%
+# strcache performance: lookups = 54 / hit rate = 5%
 # hash-table stats:
-# Load=47/8192=1%, Rehash=0, Collisions=1/50=2%
-# Finished Make data base on Wed Jun  8 11:16:10 2022
+# Load=51/8192=1%, Rehash=0, Collisions=1/54=2%
+# Finished Make data base on Wed Jun  8 18:26:42 2022
 
  
